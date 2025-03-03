@@ -40,5 +40,5 @@ with st.chat_message("ai"):
 
                 if 'conversao' in st.session_state:
                     st.balloons()
-                    st.write(linguagem_conversao)
+                    st.markdown(f":green[**{linguagem_conversao}**]")
                     st.write(st.session_state.conversao)

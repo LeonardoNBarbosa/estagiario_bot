@@ -23,5 +23,4 @@ else:
             st.session_state.correcao = AI.correcao_codigo(chave, st.session_state.codigo)
 
             if 'correcao' in st.session_state:
-                st.snow()
                 st.write(st.session_state.correcao)
